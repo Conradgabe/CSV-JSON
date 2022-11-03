@@ -19,6 +19,7 @@ def csv_to_json(csv_file_path, json_file_path):
         json_obj = json.dumps(data_dict, indent=4)
         json_file.write(json_obj)
 
+# input to take the absolute url location of the path
 csv_file_path = input('Enter the absolute path of the CSV file: ')
 json_file_path = input('Enter the absolute path of the JSON file: ')
 
